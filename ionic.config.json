@@ -1,5 +1,7 @@
 {
   "name": "project-mosaic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

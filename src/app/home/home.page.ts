@@ -8,14 +8,23 @@ import {ProjectService} from '../service/project.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  projects: Array<any>;
+  projects: Array<{
+      title: string,
+      image: string,
+      description: string,
+      ports: any[],
+      links: [{
+          url: string,
+          text: string
+      }]
+  }>;
 
   constructor(@Inject(ProjectService) private projectService: ProjectService) {
       this.initialize();
   }
 
   async initialize() {
-    this.projectService.find().subscribe((projects: Array) => {
+    this.projectService.find().subscribe((projects: Array<any>) => {
         this.projects = projects;
     });
   }
