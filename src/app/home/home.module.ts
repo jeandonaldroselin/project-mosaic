@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import {HttpClientModule} from '@angular/common/http';
+import {ProjectService} from '../service/project.service';
 
 @NgModule({
   imports: [
@@ -16,8 +18,15 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage
       }
-    ])
+    ]),
+      HttpClientModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
+    providers: [
+        {
+            provide: ProjectService,
+            useClass: ProjectService
+        }
+    ]
 })
 export class HomePageModule {}

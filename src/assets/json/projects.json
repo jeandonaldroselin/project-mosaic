@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Mozaique des projets",
+    "image": "",
+    "description": "Il s'agit de l'outil sur lequel vous êtes actuellement.",
+    "ports": [],
+    "links": [{
+      "url": "",
+      "text": "Ici"
+    }]
+  },
+  {
+    "title": "Gitlab",
+    "image": "assets/img/previews/gitlab.png",
+    "description": "Il s'agit de l'outil utilisé pour versionner les projets.",
+    "ports": [2222, 8080, 4433],
+    "links": [
+      {
+        "url": "http://46.101.111.230:8080",
+        "text": "Gitlab"
+      }
+    ]
+  },
+  {
+    "title": "GesCom Adsp-Vse",
+    "image": "assets/img/previews/gest-com-adsp-vse.png",
+    "description": "Démonstration de la plateforme de Gestion Commerciale ADSP-VSE",
+    "ports": [90, 8181, 3307],
+    "links": [
+      {
+        "url": "http://46.101.111.230:90",
+        "text": "GesCom"
+      },
+      {
+        "url": "http://46.101.111.230:8181",
+        "text": "PhpMyAdmin"
+      }
+    ]
+  },
+  {
+    "title": "Gestion Commerciale",
+    "image": "assets/img/previews/demo-gestion-commerciale.png",
+    "description": "Plateforme de Gestion Commerciale de démonstration.",
+    "ports": [91, 8182, 3308],
+    "links": [
+      {
+        "url": "http://46.101.111.230:91",
+        "text": "Demo"
+      },
+      {
+        "url": "http://46.101.111.230:8182",
+        "text": "PhpMyAdmin"
+      }
+    ]
+  }
+]
