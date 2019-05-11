@@ -5,8 +5,7 @@ pipeline {
       parallel {
         stage('Dev') {
           steps {
-            contentReplace()
-            sh 'test'
+            sh 'echo 2'
           }
         }
         stage('Uat') {
