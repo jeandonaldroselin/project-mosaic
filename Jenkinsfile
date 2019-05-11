@@ -1,10 +1,19 @@
 pipeline {
   agent any
   stages {
-    stage('') {
-      steps {
-        contentReplace()
-        sh 'test'
+    stage('error') {
+      parallel {
+        stage('Dev') {
+          steps {
+            contentReplace()
+            sh 'test'
+          }
+        }
+        stage('Uat') {
+          steps {
+            sh 'echo 1'
+          }
+        }
       }
     }
   }
