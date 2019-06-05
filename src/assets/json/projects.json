@@ -1,39 +1,49 @@
 [
   {
-    "title": "Mozaique des projets",
-    "image": "",
-    "description": "Il s'agit de l'outil sur lequel vous êtes actuellement.",
-    "ports": [92],
-    "links": [{
-      "url": "http://46.101.111.230:92",
-      "text": "Ici"
-    }]
-  },
-  {
     "title": "Gitlab",
     "image": "assets/img/previews/gitlab.png",
-    "description": "Il s'agit de l'outil utilisé pour versionner les projets.",
+    "description": "Il s'agit de l'outil utilisé pour versionner les projets. (port principal 8080)",
     "ports": [2222, 8080, 4433],
     "links": [
       {
-        "url": "http://46.101.111.230:8080",
+        "url": "http://manage.siapep.fr/_git/",
         "text": "Gitlab"
       }
     ]
   },
   {
-    "title": "GesCom Adsp-Vse",
-    "image": "assets/img/previews/gest-com-adsp-vse.png",
-    "description": "Démonstration de la plateforme de Gestion Commerciale ADSP-VSE",
-    "ports": [90, 8181, 3307],
+    "title": "Jenkins",
+    "image": "https://aperogeek.fr/wp-content/uploads/2015/11/jenkins.png",
+    "description": "Plateforme d'intégration et livraison continue ( CI/ CD ) (port principal 8187)",
+    "ports": [8186, 8187],
     "links": [
       {
-        "url": "http://46.101.111.230:90",
-        "text": "GesCom"
-      },
+        "url": "http://manage.siapep.fr/_cd/",
+        "text": "Jenkins"
+      }
+    ]
+  },
+  {
+    "title": "Open Project",
+    "image": "https://1t1rycb9er64f1pgy2iuseow-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/openproject-8-2-900x600.jpg",
+    "description": "Plateforme de gestion de projets",
+    "ports": [8188],
+    "links": [
       {
-        "url": "http://46.101.111.230:8181",
-        "text": "PhpMyAdmin"
+        "url": "http://manage.siapep.fr/_project/",
+        "text": "Open Project"
+      }
+    ]
+  },
+  {
+    "title": "Docker Registry",
+    "image": "https://www.usine-digitale.fr/mediatheque/5/3/8/000277835_homePageUne/docker.jpg",
+    "description": "Plateforme stockage de container Docker privé",
+    "ports": [8190, 8189],
+    "links": [
+      {
+        "url": "http://manage.siapep.fr/_registry/",
+        "text": "Docker Registry UI"
       }
     ]
   },
@@ -50,6 +60,18 @@
       {
         "url": "http://46.101.111.230:8182",
         "text": "PhpMyAdmin"
+      }
+    ]
+  },
+  {
+    "title": "html2pdf.it",
+    "image": "https://via.placeholder.com/1300x680",
+    "description": "Application Node de generation de pdf à partir de pages html",
+    "ports": [8185, 94],
+    "links": [
+      {
+        "url": "http://manage.siapep.fr/app/pdf-generator",
+        "text": "html2pdf.it"
       }
     ]
   }
