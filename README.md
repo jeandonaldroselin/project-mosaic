@@ -30,10 +30,13 @@ is difficult to understand what your project does concretly.
 What do you expect ? ;)
 --------------
 
-It is often said that a picture is worth a thousand words when it comes to illustrating a point ...
+It is often said that a picture is worth a thousand words when it comes to illustrating a point ...<br/><br/><br/>
 
-![src/assets](src/assets/img/demo/1.png?raw=true)
 
+<img src="src/assets/img/demo/1.png" width="400"/>
+
+
+In this picture I use the project mosaic to display all my running docker containers.
 
 How to use ?
 --------------
